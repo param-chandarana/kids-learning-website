@@ -8,10 +8,10 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden hero-image">
         <Image
           src={hero}
-          alt="Event Background"
+          alt="Hero Background"
           layout="fill"
           objectFit="cover"
-          className="opacity-70"
+          className="opacity-75"
         />
       </div>
       <div className="relative z-10 text-left hero-content px-4">
@@ -23,7 +23,7 @@ const Hero = () => {
           educational resources.
         </p>
 
-        <Link href="#" aria-label="Sign up">
+        <Link href="/kids" aria-label="Go to learning page">
           <button className="bg-[#e54e4e] text-white transition-all duration-300 ease-in-out px-8 py-4 rounded-lg shadow-md font-semibold text-lg hover:bg-[#d73d3d]">
             Start Learning
           </button>

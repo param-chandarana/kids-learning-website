@@ -55,28 +55,39 @@ const Header = () => {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg space-y-3 bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent md:space-y-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link
-                  href="/contact"
+                  href="/kids/math"
                   className="block py-2 px-3 text-black rounded md:text-gray-800 hover:text-[#e54e4e]"
                 >
-                  Contact
+                  Math
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/faq"
+                  href="/kids/science"
                   className="block py-2 px-3 text-black rounded md:text-gray-800 hover:text-[#e54e4e]"
                 >
-                  FAQ
+                  Science
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/kids/english"
+                  className="block py-2 px-3 text-black rounded md:text-gray-800 hover:text-[#e54e4e]"
+                >
+                  English
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/kids/art-creativity"
+                  className="block py-2 px-3 text-black rounded md:text-gray-800 hover:text-[#e54e4e]"
+                >
+                  Art & Creativity
                 </Link>
               </li>
               <li>
                 <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded hover:bg-[#d37d3d]">
-                  Log In
-                </button>
-              </li>
-              <li>
-                <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded hover:bg-[#d37d3d]">
-                  Sign Up
+                  Logout
                 </button>
               </li>
             </ul>
