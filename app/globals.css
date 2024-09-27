@@ -76,3 +76,28 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.hero-content {
+  animation: fade-out linear;
+  animation-timeline: view();
+  animation-range: exit -200px;
+}
+
+@supports (animation-timeline: view()) {
+  .hero-image {
+    animation: hero-image-animation linear forwards;
+    animation-timeline: view();
+    animation-range: exit;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hero-image-animation {
+  25% { opacity: 1; }
+  85%, 100% { opacity: 0; }
+}

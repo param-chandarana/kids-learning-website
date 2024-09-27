@@ -1,25 +1,36 @@
 import Link from 'next/link';
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; // Importing icons
 
 const Footer = () => {
-    return (
-      <footer className="bg-blue-600 text-white py-8">
-        <div className="container mx-auto text-center">
-          <div className="mb-4">
-            <Link href="#" className="mr-4 hover:underline">Home</Link>
-            <Link href="#" className="mr-4 hover:underline">Features</Link>
-            <Link href="#" className="mr-4 hover:underline">Contact</Link>
-            <Link href="#" className="mr-4 hover:underline">FAQ</Link>
-          </div>
-          <div className="mb-4">
-            <Link href="#" className="mr-4 hover:underline">Facebook</Link>
-            <Link href="#" className="mr-4 hover:underline">Twitter</Link>
-            <Link href="#" className="mr-4 hover:underline">Instagram</Link>
-          </div>
-          <p className="text-sm">&copy; 2024 Kids Learning. All rights reserved.</p>
+  return (
+    <footer className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-8">
+      <div className="container mx-auto text-center">
+        {/* Navigation Links */}
+        <div className="mb-4">
+          <Link href="#" className="mx-2 hover:underline transition-colors">Home</Link>
+          <Link href="#" className="mx-2 hover:underline transition-colors">Features</Link>
+          <Link href="#" className="mx-2 hover:underline transition-colors">Contact</Link>
+          <Link href="#" className="mx-2 hover:underline transition-colors">FAQ</Link>
         </div>
-      </footer>
-    );
-  };
-  
-  export default Footer;
-  
+
+        {/* Social Media Links */}
+        <div className="mb-4">
+          <Link href="#" className="mx-2 hover:text-yellow-300 transition-colors">
+            <FaFacebookF className="inline-block w-5 h-5" />
+          </Link>
+          <Link href="#" className="mx-2 hover:text-yellow-300 transition-colors">
+            <FaTwitter className="inline-block w-5 h-5" />
+          </Link>
+          <Link href="#" className="mx-2 hover:text-yellow-300 transition-colors">
+            <FaInstagram className="inline-block w-5 h-5" />
+          </Link>
+        </div>
+
+        {/* Copyright */}
+        <p className="text-sm">&copy; 2024 Kids Learning. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

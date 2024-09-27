@@ -1,69 +1,61 @@
 import Image from 'next/image';
-import interactiveGames from '@/public/whatsnew1.png';
-import educationalResources from '@/public/whatsnew4.png';
-import childFriendlyInterface from '@/public/whatsnew2.png';
+import interactiveActivities from '@/public/interactiveActivities.png';
+import educationalResources from '@/public/educationalResources.png';
+import childFriendlyInterface from '@/public/childFriendlyInterface.jpg';
+import printables from '@/public/printables.jpg';
 
 const Features = () => {
   return (
-    <section id="features" className="bg-white mt-16">
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-6">What's new?</h2>
-
-        {/* Feature 1: Image Left, Content Right */}
-        <div className="w-full min-h-[60vh] flex flex-col md:flex-row items-center justify-center py-8 md:px-8">
-          <Image
-            src={interactiveGames}
-            alt="Interactive Games"
-            width={250}
-            height={250}
-            className="mx-auto mb-4 md:mb-0"
-          />
-          <div className="text-left md:ml-8 max-w-xs md:w-1/2">
+    <section className="bg-white dark:bg-gray-900">
+    <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h3 className="text-8xl font-bold text-gray-300">01</h3>
-            <h3 className="text-3xl font-bold mt-4">Interactive Games</h3>
-            <p className="mt-4 text-lg">
-              Fun games designed to engage children in learning across various subjects.
-            </p>
-          </div>
+            <h3 className="text-3xl font-bold text-gray-900 mt-4">Interactive Activities</h3>
+            <p className="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+            <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
         </div>
-
-        {/* Feature 2: Content Left, Image Right */}
-        <div className="w-full min-h-[60vh] flex flex-col md:flex-row-reverse items-center justify-center py-8 md:px-8">
-          <Image
-            src={educationalResources}
-            alt="Educational Resources"
-            width={250}
-            height={250}
-            className="mx-auto mb-4 md:mb-0"
-          />
-          <div className="text-left md:mr-8 max-w-xs md:w-1/2">
-            <h3 className="text-8xl font-bold text-gray-300">02</h3>
-            <h3 className="text-3xl font-bold mt-4">Educational Resources</h3>
-            <p className="mt-4 text-lg">
-              Downloadable worksheets, videos, and activities for both learning and fun.
-            </p>
-          </div>
+        <div className="grid grid-cols-2 gap-9 mt-8">
+            <Image className="w-full rounded-lg features-image features-image" src={interactiveActivities} alt="Interactive Activities" />
+            {/* <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" /> */}
         </div>
-
-        {/* Feature 3: Image Left, Content Right */}
-        <div className="w-full min-h-[60vh] flex flex-col md:flex-row items-center justify-center py-8 md:px-8">
-          <Image
-            src={childFriendlyInterface}
-            alt="Child-Friendly Interface"
-            width={250}
-            height={250}
-            className="mx-auto mb-4 md:mb-0 md:w-1/3"
-          />
-          <div className="text-left md:ml-8 max-w-xs">
+    </div>
+    <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+    <div className="grid grid-cols-2 gap-9 mt-8">
+        <Image className="w-full rounded-lg features-image" src={educationalResources} alt="Educational Resources" />
+        {/* <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" /> */}
+    </div>
+    <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <h3 className="text-8xl font-bold text-gray-300">02</h3>
+        <h3 className="text-3xl font-bold text-gray-900 mt-4">Educational Resources</h3>
+        <p className="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+        <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+    </div>
+</div>
+<div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h3 className="text-8xl font-bold text-gray-300">03</h3>
-            <h3 className="text-3xl font-bold mt-4">Child-Friendly Interface</h3>
-            <p className="mt-4 text-lg">
-              Simple, colorful, and easy-to-use design that encourages exploration and learning.
-            </p>
-          </div>
+            <h3 className="text-3xl font-bold text-gray-900 mt-4">Printables</h3>
+            <p className="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+            <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
         </div>
-      </div>
-    </section>
+        <div className="grid grid-cols-2 gap-9 mt-8">
+            <Image className="w-full rounded-lg features-image" src={printables} alt="Printables" />
+            {/* <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" /> */}
+        </div>
+    </div>
+    <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+    <div className="grid grid-cols-2 gap-9 mt-8">
+        <Image className="w-full rounded-lg features-image" src={childFriendlyInterface} alt="Child Friendly Interface" />
+        {/* <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" /> */}
+    </div>
+    <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <h3 className="text-8xl font-bold text-gray-300">04</h3>
+        <h3 className="text-3xl font-bold text-gray-900 mt-4">Child-Friendly Interface</h3>
+        <p className="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
+        <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+    </div>
+</div>
+</section>
   );
 };
 

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import whatsnew1 from '@/public/whatsnew1.png';
+// import whatsnew1 from '@/public/whatsnew1.png';
 
 const WhyChooseUs = () => {
   return (
