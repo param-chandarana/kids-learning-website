@@ -1,8 +1,8 @@
-import Features from "@/components/home/Features";
-import Footer from "@/components/home/Footer";
-import Header from "@/components/home/Header";
-import Hero from "@/components/home/Hero";
-import Testimonials from "@/components/home/Testimonials";
+import Features from "@/components/Features";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
