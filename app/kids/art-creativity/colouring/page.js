@@ -49,9 +49,6 @@ const CountingComponent = () => {
               make purple. You can use colours to paint, draw, and make
               beautiful pictures!
             </p>
-            <p className="mb-4">
-              You can count toys, books, or even your fingers and toes!
-            </p>
           </div>
 
           {/* Second Card: Example */}
@@ -111,7 +108,7 @@ const CountingComponent = () => {
 
           {/* Card 3: Take Printouts */}
           <Link
-            href="/art-creativity/colouring/colouring_worksheet.pdf"
+            href="/art/colouring/colouring_worksheet.pdf"
             download="colouring_worksheet.pdf"
           >
             <div className="bg-[#E98C4E] text-black rounded-lg px-8 py-6 sm:px-10 sm:py-8 lg:px-16 lg:py-10 hover:bg-[#cc7a43] transition flex flex-col justify-between h-full inner-shadow border-2 border-black">
