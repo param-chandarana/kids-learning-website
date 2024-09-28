@@ -48,7 +48,7 @@ const LoginPage = () => {
 
           {/* Sign-up Link */}
           <div className="text-lg text-gray-500 mb-6">
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <Link
               href="/auth/signup"
               className="text-indigo-600 hover:underline"

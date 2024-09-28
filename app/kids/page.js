@@ -1,6 +1,8 @@
 import Image from "next/image";
-import math from "/public/math/add_card.jpg";
+import math from "/public/math/counting_card.jpg";
 import science from "/public/science/plants.jpg";
+import english from "/public/english/english.jpg";
+import art from "/public/art/art.jpg";
 import Link from "next/link";
 
 const cards = [
@@ -23,14 +25,14 @@ const cards = [
     link: "/kids/english",
     title: "English",
     description: "Improve your language skills through interactive lessons.",
-    image: math,
+    image: english,
     borderColor: "#DE757A",
   },
   {
     link: "/kids/art-creativity",
     title: "Art & Creativity",
     description: "Unleash your creativity with fun art projects.",
-    image: math,
+    image: art,
     borderColor: "#E98C4A",
   },
 ];
@@ -48,9 +50,9 @@ const CardGrid = () => {
       </div>
 
       {/* Card Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-20 py-4 px-20">
         {cards.map((card, index) => (
-          <Link href={card.link} key={index}>
+          <Link href={card.link} key={index} className="mx-5">
             <div
               key={index}
               className="relative rounded-xl overflow-hidden group border cursor-pointer"

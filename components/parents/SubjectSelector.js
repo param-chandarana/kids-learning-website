@@ -9,11 +9,11 @@ import ArtComponent from "./ArtComponent";
 import AllSubjectsComponent from "./AllSubjectsComponent";
 
 const subjects = [
-  { name: "All Subjects", icon: "/logo.png" },
-  { name: "Math", icon: "/logo.png" },
-  { name: "Science", icon: "/logo.png" },
-  { name: "English", icon: "/logo.png" },
-  { name: "Art & Creativity", icon: "/logo.png" },
+  { name: "All", icon: "/parent/all.jpg" },
+  { name: "Math", icon: "/parent/math.jpg" },
+  { name: "Science", icon: "/parent/science.jpg" },
+  { name: "English", icon: "/parent/english.jpg" },
+  { name: "Art", icon: "/parent/art.jpg" },
 ];
 
 const SubjectSelector = () => {

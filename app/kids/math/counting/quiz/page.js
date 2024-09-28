@@ -143,11 +143,11 @@ const QuizCard = () => {
                     (option) => option.id === selectedAnswer
                   )?.isCorrect ? (
                     <p className="text-black font-bold">
-                      Hooray! You're a star!
+                      Hooray! You&apos;re a star!
                     </p>
                   ) : (
                     <p className="text-black font-bold">
-                      Oops! That's incorrect!
+                      Oops! That&apos;s incorrect!
                     </p>
                   )}
                 </div>
