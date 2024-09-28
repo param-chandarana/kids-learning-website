@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
           sizes="180x180"
           href="/public/apple-touch-icon.png"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${itim.className} antialiased`}>
         <div>{children}</div>
