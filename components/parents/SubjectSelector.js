@@ -27,7 +27,7 @@ const SubjectSelector = () => {
         return <ScienceComponent />;
       case "English":
         return <EnglishComponent />;
-      case "Art & Creativity":
+      case "Art":
         return <ArtComponent />;
       default:
         return <AllSubjectsComponent />;
