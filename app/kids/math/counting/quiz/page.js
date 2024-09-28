@@ -119,7 +119,7 @@ const QuizCard = () => {
                 {question.options.map((option) => (
                   <button
                     key={option.id}
-                    className={`block w-full py-3 text-left px-6 rounded-md border-2 border-black inner-shadow ${
+                    className={`block w-full py-3 text-2xl text-left px-6 rounded-md border-2 border-black inner-shadow ${
                       selectedAnswer === option.id
                         ? option.isCorrect
                           ? "bg-green-500 text-white scale-[1.05]"
