@@ -23,7 +23,7 @@ const Hero = () => {
           educational resources.
         </p>
 
-        <Link href="/kids" aria-label="Go to learning page">
+        <Link href="/auth/login" aria-label="Go to learning page">
           <button className="bg-[#e54e4e] text-white transition-all duration-300 ease-in-out px-8 py-4 rounded-lg shadow-md font-semibold text-lg hover:bg-[#d73d3d] inner-shadow border-2 border-black">
             Start Learning
           </button>

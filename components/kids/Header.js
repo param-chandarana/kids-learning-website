@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/logo.png";
+import logo from "@/public/logo_text.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Header = () => {
             href="/kids"
             className="flex items-center space-x-1 rtl:space-x-reverse"
           >
-            <Image src={logo} alt="Logo" width={42} height={42} />
+            <Image src={logo} alt="Logo" height={56} />
           </Link>
           <button
             onClick={toggleMenu}

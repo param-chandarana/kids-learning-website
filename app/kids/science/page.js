@@ -6,6 +6,25 @@ import weather from "@/public/science/weather.jpg";
 import solarSystem from "@/public/science/solar_system.jpg";
 import Grid from "@/components/kids/Grid";
 
+// Define metadata for the page
+export const metadata = {
+  title: "Explore Science - Fun Activities for Kids",
+  description:
+    "Discover exciting science topics for kids! Learn about plants, animals, weather, the solar system, and more through engaging activities.",
+  keywords:
+    "science for kids, plants, animals, our body, weather, solar system, fun science activities",
+  author: "Kids Learning",
+  openGraph: {
+    title: "Fun Science Activities for Kids",
+    description: "Explore the wonders of science with fun activities for kids!",
+    url: "https://kids-learning-website.vercel.app/kids/science",
+    image: "/public/logo.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+};
+
 const items = [
   {
     id: 1,

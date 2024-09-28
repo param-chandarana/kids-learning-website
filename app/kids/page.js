@@ -5,6 +5,26 @@ import english from "/public/english/english.jpg";
 import art from "/public/art/art.jpg";
 import Link from "next/link";
 
+// Define metadata for the page
+export const metadata = {
+  title: "Explore Subjects - Fun Learning Activities for Kids",
+  description:
+    "Discover a variety of subjects for kids! Engage with fun activities in Math, Science, English, and Art.",
+  keywords:
+    "subjects for kids, math activities, science experiments, english lessons, art projects, fun learning",
+  author: "Kids Learning",
+  openGraph: {
+    title: "Explore Learning Subjects for Kids",
+    description:
+      "Engaging activities across various subjects to help kids learn and grow!",
+    url: "https://kids-learning-website.vercel.app/kids/subjects",
+    image: "/public/logo.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+};
+
 const cards = [
   {
     link: "/kids/math",
@@ -39,31 +59,32 @@ const cards = [
 
 const CardGrid = () => {
   return (
-    <div className="container mx-auto py-12 px-4">
-      <div className="mb-12">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+    <div className="container mx-auto py-12 px-4 min-h-[80vh]">
+      <div className="mb-12 text-center">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Explore Subjects
         </h1>
-        <p className="text-lg md:text-2xl text-gray-600">
+        <p className="text-base md:text-xl text-gray-600">
           Learn and grow through engaging activities in different subjects.
         </p>
       </div>
 
       {/* Card Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-20 py-4 px-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-12 gap-x-6 py-4">
         {cards.map((card, index) => (
-          <Link href={card.link} key={index} className="mx-5">
+          <Link href={card.link} key={index}>
             <div
-              key={index}
-              className="relative rounded-xl overflow-hidden group border cursor-pointer"
+              className="relative rounded-xl overflow-hidden group border cursor-pointer mx-auto"
               style={{
                 height: "300px",
+                width: "100%",
+                maxWidth: "400px",
                 borderColor: `${card.borderColor}`,
                 borderWidth: "6px",
                 borderStyle: "solid",
               }}
             >
-              <div className="relative w-full h-80 bg-white">
+              <div className="relative w-full h-full bg-white">
                 <Image
                   src={card.image}
                   alt={card.title}
@@ -72,11 +93,11 @@ const CardGrid = () => {
                   className="transition-transform duration-300 transform group-hover:scale-105 opacity-40"
                 />
               </div>
-              <div className="absolute inset-0 flex flex-col items-start justify-center p-10 translate-y-14">
-                <h2 className="text-3xl md:text-4xl font-bold mb-2">
+              <div className="absolute inset-0 flex flex-col items-start justify-center p-6 sm:p-8 translate-y-10 sm:translate-y-12 md:translate-y-14">
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">
                   {card.title}
                 </h2>
-                <p className="text-lg md:text-xl">{card.description}</p>
+                <p className="text-sm md:text-base">{card.description}</p>
               </div>
             </div>
           </Link>

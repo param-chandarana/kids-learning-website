@@ -30,9 +30,13 @@ const Features = () => {
               Interactive Activities
             </h3>
             <p className="mb-4">
-              We are strategists, designers and developers. Innovators and
-              problem solvers. We are strategists, designers and developers.
-              Innovators and problem solvers.
+              Our platform offers a variety of interactive activities that make
+              learning exciting for kids. Through engaging games, quizzes, and
+              puzzles, children can explore subjects like math, science,
+              language arts, and arts & creativity in an enjoyable way.
+              Interactive activities not only foster curiosity but also
+              reinforce important skills that are vital for early learning
+              development.
             </p>
           </div>
         </div>
@@ -56,9 +60,12 @@ const Features = () => {
               Educational Resources
             </h3>
             <p className="mb-4">
-              We are strategists, designers and developers. Innovators and
-              problem solvers. We are strategists, designers and developers.
-              Innovators and problem solvers.
+              We provide a wealth of educational resources to support children’s
+              learning both online and offline. Parents can access videos,
+              learning materials, and downloadable worksheets to enhance their
+              child’s understanding of key concepts. Our educational resources
+              are created to cater to the unique learning needs of preschool to
+              early elementary students.
             </p>
           </div>
         </div>
@@ -82,9 +89,11 @@ const Features = () => {
               Printables
             </h3>
             <p className="mb-4">
-              We are strategists, designers and developers. Innovators and
-              problem solvers. We are strategists, designers and developers.
-              Innovators and problem solvers.
+              Printable worksheets are available to offer hands-on learning
+              opportunities beyond the screen. Whether it’s math exercises,
+              coloring sheets, or writing practice, our printables help parents
+              and educators reinforce lessons in a way that kids love. These
+              printables encourage creativity and make learning at home easier.
             </p>
           </div>
         </div>
@@ -108,9 +117,12 @@ const Features = () => {
               Child-Friendly Interface
             </h3>
             <p className="mb-4">
-              We are strategists, designers and developers. Innovators and
-              problem solvers. We are strategists, designers and developers.
-              Innovators and problem solvers.
+              Our platform features a child-friendly interface, designed with
+              bright colors and simple navigation to ensure that even the
+              youngest users can explore independently. The intuitive design of
+              our child-friendly interface ensures that kids have a safe and
+              engaging experience while parents can trust the platform’s
+              usability.
             </p>
           </div>
         </div>

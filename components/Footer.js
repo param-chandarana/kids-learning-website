@@ -40,14 +40,14 @@ const Footer = () => {
             <FaFacebookF className="inline-block w-5 h-5" />
           </Link>
           <Link
-            href="#"
+            href="https://x.com/kids_learning_1"
             className="mx-2 hover:text-[#e54e4e] transition-colors"
             aria-label="Go to Twitter page"
           >
             <FaTwitter className="inline-block w-5 h-5" />
           </Link>
           <Link
-            href="#"
+            href="https://www.instagram.com/kids.learnings?utm_source=qr&igsh=MW40ZGd0MXc4cWRtcg=="
             className="mx-2 hover:text-[#e54e4e] transition-colors"
             aria-label="Go to Instagram page"
           >

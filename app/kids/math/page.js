@@ -6,6 +6,27 @@ import clock from "@/public/math/clock_card.jpg";
 import calendar from "@/public/math/calendar_card.jpg";
 import Grid from "@/components/kids/Grid";
 
+// Define metadata for the page
+export const metadata = {
+  title:
+    "Math Activities for Kids | Learn Counting, Addition, Subtraction & More",
+  description:
+    "Fun and interactive math activities for kids! Explore counting, addition, subtraction, shapes, clock reading, and calendar learning.",
+  keywords:
+    "math for kids, counting, addition, subtraction, shapes, learning clock, calendar for kids, fun math activities",
+  author: "Kids Learning",
+  openGraph: {
+    title: "Math Activities for Kids",
+    description:
+      "Fun and interactive math activities to help kids learn counting, addition, subtraction, shapes, and more!",
+    url: "https://kids-learning-website.vercel.app/kids/math",
+    image: "/public/logo.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+};
+
 const items = [
   {
     id: 1,
