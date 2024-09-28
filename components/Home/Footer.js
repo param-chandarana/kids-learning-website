@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black bg-opacity-10 text-black py-8">
+    <footer className="bg-[#5BA3D9] bg-opacity-15 text-black text-xl py-8">
       <div className="container mx-auto text-center">
         {/* Navigation Links */}
         <div className="mb-4">
@@ -13,13 +13,6 @@ const Footer = () => {
             aria-label="Go to home page"
           >
             Home
-          </Link>
-          <Link
-            href="#"
-            className="mx-2 hover:text-[#e54e4e] transition-colors"
-            aria-label="Go to features page"
-          >
-            Features
           </Link>
           <Link
             href="#"

@@ -14,10 +14,10 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="bg-black bg-opacity-10 fixed z-50 w-full border-gray-200 dark:bg-gray-900">
+      <nav className="bg-[#5BA3D9] bg-opacity-15 z-50 w-full border-gray-200 dark:bg-gray-900 text-xl">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
-            href="/"
+            href="/kids"
             className="flex items-center space-x-1 rtl:space-x-reverse"
           >
             <Image src={logo} alt="Logo" width={42} height={42} />
@@ -86,9 +86,11 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded hover:bg-[#d37d3d]">
-                  Logout
-                </button>
+                <Link href="/">
+                  <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded-lg hover:bg-[#d73d3d] inner-shadow border-2 border-black">
+                    Logout
+                  </button>
+                </Link>
               </li>
             </ul>
           </div>

@@ -99,9 +99,13 @@ body {
 
 @keyframes hero-image-animation {
   25% { opacity: 1; }
-  85%, 100% { opacity: 0; }
+  85%, 100% { opacity: 0.2; }
 }
 
 .transition-transform {
   transition: transform 0.3s ease;
+}
+
+.inner-shadow {
+  box-shadow: -5px 5px 12px 0px rgba(0,0,0,0.15) inset;
 }

@@ -1,4 +1,6 @@
-import "./globals.css";
+import "../globals.css";
+import Header from "@/components/kids/Header";
+import Footer from "@/components/kids/Footer";
 import { Itim } from "next/font/google";
 
 const itim = Itim({
@@ -31,10 +33,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${itim.className} antialiased`}>
-        <div>{children}</div>
-      </body>
-    </html>
+    <div
+      className={`${itim.className} antialiased`}
+      style={{
+        background: `url("/math/math_bg.jpg")`,
+        backgroundSize: "cover",
+      }}
+    >
+      <Header />
+      <div>{children}</div>
+      <Footer />
+    </div>
   );
 }

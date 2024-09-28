@@ -14,10 +14,10 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="bg-black bg-opacity-10 fixed z-50 w-full border-gray-200 dark:bg-gray-900">
+      <nav className="bg-[#5BA3D9] bg-opacity-15 fixed z-50 w-full text-xl border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
-            href="/"
+            href="/kids"
             className="flex items-center space-x-1 rtl:space-x-reverse"
           >
             <Image src={logo} alt="Logo" width={42} height={42} />
@@ -70,14 +70,18 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded hover:bg-[#d37d3d]">
-                  Log In
-                </button>
+                <Link href="/auth/login">
+                  <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded-lg hover:bg-[#d73d3d] inner-shadow border-2 border-black">
+                    Log In
+                  </button>
+                </Link>
               </li>
               <li>
-                <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded hover:bg-[#d37d3d]">
-                  Sign Up
-                </button>
+                <Link href="/auth/signup">
+                  <button className="block py-2 px-3 text-white bg-[#e54e4e] rounded-lg hover:bg-[#d73d3d] inner-shadow border-2 border-black">
+                    Sign Up
+                  </button>
+                </Link>
               </li>
             </ul>
           </div>
