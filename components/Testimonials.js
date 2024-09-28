@@ -18,8 +18,8 @@ const Testimonials = () => {
               </Avatar>
             </div>
             <p className="italic text-lg text-gray-700">
-              "This platform has made learning so much fun for my kids. They
-              love the games and we enjoy doing activities together!"
+              &quot;This platform has made learning so much fun for my kids.
+              They love the games and we enjoy doing activities together!&quot;
             </p>
             <p className="mt-6 font-bold text-[#e54e4e]">– Parent</p>
           </div>
@@ -34,9 +34,9 @@ const Testimonials = () => {
               </Avatar>
             </div>
             <p className="italic text-lg text-gray-700">
-              "The resources available here are perfect for my classroom. I
+              &quot;The resources available here are perfect for my classroom. I
               recommend it to all teachers looking for interactive learning
-              tools."
+              tools.&quot;
             </p>
             <p className="mt-6 font-bold text-[#e54e4e]">– Teacher</p>
           </div>
@@ -51,8 +51,8 @@ const Testimonials = () => {
               </Avatar>
             </div>
             <p className="italic text-lg text-gray-700">
-              "Amazing! My child has learned so much and actually looks forward
-              to learning every day. Highly recommended."
+              &quot;Amazing! My child has learned so much and actually looks
+              forward to learning every day. Highly recommended.&quot;
             </p>
             <p className="mt-6 font-bold text-[#e54e4e]">– Parent</p>
           </div>
