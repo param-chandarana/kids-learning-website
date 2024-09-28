@@ -90,8 +90,8 @@ const CountingComponent = () => {
             </div>
           </Link>
 
-          {/* Card 2: Play Games */}
-          <Link href="https://www.youtube.com/watch?v=snUGqgAmz-c">
+          {/* Card 2: Watch Videos */}
+          <Link href="https://www.youtube.com/watch?v=c5Zag_QVRVs&pp=ygURY29sb3JpbmcgZm9yIGtpZHM%3D">
             <div className="bg-[#5BA3D9] text-black rounded-lg px-8 py-6 sm:px-10 sm:py-8 lg:px-16 lg:py-10 hover:bg-[#4c8bba] transition flex flex-col justify-between h-full inner-shadow border-2 border-black">
               <div>
                 <h3 className="font-bold text-3xl sm:text-4xl mb-4 sm:mb-6">
