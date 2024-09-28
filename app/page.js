@@ -16,8 +16,8 @@ export const metadata = {
       "Interactive Kids Learning Platform | Fun and Educational Activities",
     description:
       "Discover a fun and interactive learning platform designed for preschool to early elementary kids. Engage in educational activities, printables, and enjoy a child-friendly interface for safe and exciting learning.",
-    image: "/public/interactiveActivities.png", // Replace with actual image path
-    url: "https://kids-learning-website.vercel.app", // Replace with actual URL
+    image: "/public/interactiveActivities.png",
+    url: "https://kids-learning-website.vercel.app",
   },
   twitter: {
     card: "summary_large_image",
@@ -25,7 +25,7 @@ export const metadata = {
       "Interactive Kids Learning Platform | Fun and Educational Activities",
     description:
       "Discover a fun and interactive learning platform designed for preschool to early elementary kids. Engage in educational activities, printables, and enjoy a child-friendly interface for safe and exciting learning.",
-    image: "/public/interactiveActivities.png", // Replace with actual image path
+    image: "/public/interactiveActivities.png",
   },
 };
 

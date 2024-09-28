@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+Allow: /
+
+User-agent: Googlebot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+
+User-agent: Bingbot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+
+User-agent: *
+Crawl-delay: 10
