@@ -57,10 +57,10 @@ const items = [
   },
 ];
 
-const Science = () => {
+const ArtCreativity = () => {
   return (
     <main>
-      <h1 className="text-6xl ml-20 pl-6 my-8 font-bold">Science</h1>
+      <h1 className="text-6xl ml-20 pl-6 my-8 font-bold">Art & Creativity</h1>
       <div>
         <Grid items={items} className="mx-20" />
       </div>
@@ -68,4 +68,4 @@ const Science = () => {
   );
 };
 
-export default Science;
+export default ArtCreativity;
