@@ -44,8 +44,7 @@ const CountingComponent = () => {
             </h3>
             <p className="mb-6 sm:mb-8 lg:mb-12">
               To count, point to each item, say a number for each one, and keep
-              going until you’ve counted everything! You can count toys, books,
-              or even your fingers and toes!
+              going until you’ve counted everything!
             </p>
             <p className="mb-4">
               You can count toys, books, or even your fingers and toes!
