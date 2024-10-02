@@ -45,9 +45,13 @@ const AllSubjectsComponent = () => {
   };
 
   const stats = [
-    { icon: "logo.png", label: "Topics Covered", value: 12 },
-    { icon: "/logo.png", label: "Quizzes Attempted", value: 12 },
-    { icon: "/logo.png", label: "Questions Correct", value: 24 },
+    { icon: "/parent/topics.png", label: "Topics Covered", value: 12 },
+    { icon: "/parent/quizzes.png", label: "Quizzes Attempted", value: 12 },
+    {
+      icon: "/parent/questions.png",
+      label: "Questions Correct",
+      value: 24,
+    },
   ];
 
   return (
