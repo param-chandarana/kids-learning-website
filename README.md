@@ -1,4 +1,4 @@
-# 🌈 Kids Interactive Learning Website
+# Kids Interactive Learning Website
 
 An engaging and educational Next.js frontend designed for children, offering interactive learning experiences across subjects like Math, Science, English, Art, and more. Parents can monitor their child’s progress through a dedicated dashboard. Optimized for performance, accessibility, and SEO to ensure a smooth experience across all devices.
 
